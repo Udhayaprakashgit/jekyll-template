@@ -15,7 +15,7 @@ h1 {
   justify-content: space-between;
   padding: 0 15px;
 
-  .header-text {
+.header-text {
     align-self: center;
     font-size: 1.4em;
     font-weight: 900;
@@ -89,3 +89,72 @@ h1 {
   background-size:cover;
 }
 
+.navigation-right {
+  display: flex;
+  justify-content: flex-end; 
+  list-style-type: none;
+  padding: 66px;
+  //position: relative;
+  left: 180px;
+  //float: right;
+}
+
+.navigation {
+  display: inline-flex;
+}
+
+.navigation-left {
+  display: flex;
+  justify-content: flex-start; 
+  list-style-type: none;
+  padding: 3vw;
+  position: relative;
+  left: 180px;
+  float: left;
+}
+
+.margins {
+  margin-right: 63px;
+  color: white;
+}
+.headers-text {
+  // width: 63px;
+  height: 21px;
+  font-family: Roboto;
+  font-size: 21px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.rounded-rectangle {
+  width: 142.1px;
+  height: 39.8px;
+  border-radius: 19.9px;
+  padding: 0.5vw 0.7vh 1.8vw 2vh;
+  //background-color: #ffffff;
+  border: solid 0.5px #ffffff;
+  text-align: center;
+}
+
+.mom-logo {
+  width: 55px;
+  height: 40px;
+}
+
+.mom-text {
+  width: 81px;
+  height: 27px;
+  font-family: Roboto;
+  font-size: 36.9px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}

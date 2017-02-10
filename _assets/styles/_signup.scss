@@ -1,0 +1,21 @@
+.signup-rectangle {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  justify-content: space-around;
+  padding: 50px 50px;
+  position: relative;
+  top: 10vh;
+  margin: 0 auto;
+  max-width: 500px;
+  min-width: 300px;
+  height: 600px;
+  background-color: #ffffff;
+}
+
+.background-rectangle {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f4f7f8;
+}
+
