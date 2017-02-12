@@ -1,16 +1,29 @@
 <header>
 <section class="start-page">
+<div class="home">
   <div class="navigation">
     <div class="navigation-left">
-      <img src="img/logo_02.png" class="mom-logo"/>
+      <img src="img/logo_02.png" alt="mom-logo" class="mom-logo"/>
       <p class="mom-text">MoM</p>  
-      </div>
+    </div>
+    <input id="toggle" type="checkbox">
+    <label class="toggle-container" for="toggle">
+      <span class="button button-toggle"></span>
+    </label>
     <div class="headers-text navigation-right">
-      <a class="margins">Pricing</a>
-      <a href="/blog/" class="margins">Blog</a>
-      <a href="/login/" class="margins">Login</a>
-      <a href="/login/" class="margins rounded-rectangle">Sign Up Free</a>  
+      <a class="nav-item">Pricing</a>
+      <a href="/blog/" class="nav-item">Blog</a>
+      <a href="/login/" class="nav-item">Login</a>
+      <a href="/login/" class="nav-item rounded-rectangle">Sign Up Free</a>  
     </div>
   </div>
+  <div class="home-page">
+    <h3 class="meeting-notes">{{ page.headline }}</h3>
+    <h4 class="sub-head-text">{{ page.second-headline }}</h4>
+    <a class="trial-text">{{ page.trial }}</a>
+    <span class="trial-sub-text">{{ page.desc }}</span>
+    <img src="/img/layer-1-6.jpg" alt="fg-img"/ class="fg-img">
+  </div>
+</div>
 </section>
 </header>
