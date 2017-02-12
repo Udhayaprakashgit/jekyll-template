@@ -30,5 +30,4 @@ cloudfront_wildcard_invalidation: true
 redirects:
   about.html: /about
   login.html: /login
-  signup.html: /signup
   blog.html: /blog

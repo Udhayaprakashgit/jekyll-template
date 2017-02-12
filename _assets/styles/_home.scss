@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
 h1 {
   font-family: Roboto;
   text-align: center;
@@ -33,6 +35,10 @@ h1 {
 }
 
 .about {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-top: 3vw;
   width: 100%;
   height: 416.5px;
   background-color: #212a37;
@@ -75,6 +81,9 @@ h1 {
 }
 
 .start-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   width: 100%;
   height: 1079px;
   object-fit: contain;
@@ -83,26 +92,26 @@ h1 {
   background-size:cover;
 }
 
-.navigation-right {
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  .navigation-left {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start; 
+  align-items: center;
+  list-style-type: none;
+  padding-left: 12vw; 
+}
+  .navigation-right {
   display: flex;
   justify-content: flex-end; 
   list-style-type: none;
   padding: 66px;
-  left: 180px;
+  padding-right: 10vw;
 }
-
-.navigation {
-  display: inline-flex;
-}
-
-.navigation-left {
-  display: flex;
-  justify-content: flex-start; 
-  list-style-type: none;
-  padding: 3vw;
-  position: relative;
-  left: 180px;
-  float: left;
 }
 
 .margins {
@@ -110,8 +119,6 @@ h1 {
   color: white;
 }
 .headers-text {
-  //width: 63px;
-  height: 21px;
   font-family: Roboto;
   font-size: 21px;
   font-weight: normal;
@@ -123,11 +130,12 @@ h1 {
 }
 
 .rounded-rectangle {
-  width: 142.1px;
-  height: 39.8px;
+  padding-top: 0.5vh;
+  width: 8vw;
+  height: 4vh;
   border-radius: 19.9px;
-  padding: 0.5vw 0.7vh 1.8vw 2vh;
-  border: solid 0.5px #ffffff;
+  border-width: 1px;
+  border-style: solid;
   text-align: center;
 }
 
@@ -147,5 +155,6 @@ h1 {
   line-height: normal;
   letter-spacing: normal;
   text-align: center;
+  padding-left: 1vw;
   color: #ffffff;
 }

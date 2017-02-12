@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
 .bottom-footer {
   background-color: $black-light-color;
   border-top: 1px solid $black;
@@ -31,7 +33,7 @@ p {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding: 100px;
+  padding-top: 4vh;
 
   .footer-midtopic{
   width: auto;
@@ -73,7 +75,13 @@ p {
   }
 }
 
-.mom-text-footer{
+.mom-footer {
+  display: flex;
+  flex-direction: row;
+  //justify-content: space-around;
+  padding-left: 18vw;
+.mom-text-footer{ 
+  padding-left: 1vw;
   width: 50px;
   height: 17px;
   font-family: Roboto;
@@ -83,7 +91,9 @@ p {
   font-stretch: normal;
   line-height: normal;
   letter-spacing: normal;
-  text-align: left;
+  text-align: center;
+  padding-top: 1vh;
   color: #ffffff;
+}
 }
 
