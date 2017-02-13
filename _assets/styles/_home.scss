@@ -113,14 +113,24 @@ h1 {
   letter-spacing: normal;
   text-align: center;
   color: $white;
+  @media only screen and (max-width: $scr_brk) {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding-top: 15vh;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    overflow-wrap: break-word;
+    font-size: 30px;
+}
 }
 .sub-head-text {
   padding-top: 1vh;
-  width: 100vw;
+  width: 80vw;
   height: 10vh;
-  font-family: Roboto;
+  font-family: Roboto-Light;
   font-size: 20px;
-  font-weight: 300;
+  font-weight: 100;
   font-style: normal;
   font-stretch: normal;
   line-height: 1.4;
@@ -128,6 +138,18 @@ h1 {
   text-align: center;
   color: $white;
   padding-bottom: 12vh;
+  align-self: center;
+  padding-left: 4vw;
+  @media only screen and (max-width: $scr_brk) {
+    width: auto;
+    height: auto;
+    text-align: center;
+    padding-top: 1vh;
+    padding-left: 12vw;
+    padding-right: 12vw;
+    padding-bottom: 7vh;
+    font-size: 14px;
+  }
 }
 .trial-text{
   width: fit-content;
@@ -145,13 +167,23 @@ h1 {
   border-radius: 30.2px;
   background-color: $trial-bg;
   padding: 1vw;
+  @media only screen and (max-width: $scr_brk){
+    text-align: center;
+    font-size: 15px;
+    font-weight: 300;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    align-self: center;
+  }
   }
 .trial-sub-text{
   width: fit-content;
   height: fit-content;
-  font-family: Roboto;
+  font-family: Roboto-Light;
   font-size: 20px;
-  font-weight: 200;
+  font-weight: 100;
   font-style: normal;
   font-stretch: normal;
   line-height: 1.33;
@@ -162,11 +194,22 @@ h1 {
   padding: 2vw;
   padding-top: 2vh;
   padding-bottom: 7vh;
+  @media only screen and (max-width: $scr_brk) {
+    font-size: 11px;
+    font-weight: 100;
+    padding-right: 2vw;   
+  }
 }
 .fg-img{
   width: 60vw;
   height: 43.4vh;
   align-self: center;
+  @media only screen and (max-width: $scr_brk) {
+    width: 330px;
+    height: 145px;
+    align-self: center;
+    padding-right: 10vw;
+  }
 }
 }
 
@@ -190,7 +233,6 @@ h1 {
   justify-content: flex-end; 
   list-style-type: none;
   padding-top: 5vh;
-  padding-right: 10vw;
   @media only screen and (max-width: $scr_brk) {
     display: none;
 }
@@ -213,8 +255,9 @@ h1 {
   @media only screen and (max-width: $scr_brk) {
     display: inline;
     img{
-    width: 8vw;
-    padding-right: 2vw;
+    width: 20vw;
+    padding-right: 15vw;
+    padding-top: 5vh;
     }   
 
 }
@@ -244,8 +287,8 @@ h1 {
 }
 
 .mom-logo {
-  width: 3vw;
-  height: 4vh;
+  width: 40px;
+  height: 40px;
 }
 
 .mom-text {
