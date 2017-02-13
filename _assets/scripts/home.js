@@ -1,13 +1,17 @@
 //Write JS logic here
 
-  var x = document.getElementById("nav-button");
   var y = document.getElementById("links");
   var name = 'nav-display';
   var prev= 'navigation-right';
-  x.addEventListener("click", function(){
+  function menu(){
+console.log("hellllllloooo");
     if(y.classList.contains(name)){
+      console.log("in if condition",y.classList.contains(name));
       y.classList.remove(name);
     }
-    else
+    else{
+      console.log("in else condition", y.classList.contains(name));
       y.classList.add(name);
-    });
+    }
+
+    }
