@@ -86,8 +86,8 @@ h1 {
   height: 1079px;
   object-fit: contain;
   background-image: url("/img/banner.jpg");
-  background-repeat:no-repeat;
-  background-size:100vw 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 
@@ -95,24 +95,24 @@ h1 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  
+
   .home-page{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   .meeting-notes {
-  padding-top: 6vh;
-  width: 98vw;
-  height: 10vh;
-  font-family: Roboto;
-  font-size: 40px;
-  font-weight: 500;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  text-align: center;
-  color: $white;
+    padding-top: 6vh;
+    width: 98vw;
+    height: 10vh;
+    font-family: Roboto;
+    font-size: 40px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: $white;
   @media only screen and (max-width: $scr_brk) {
     width: 100%;
     height: auto;
@@ -218,49 +218,47 @@ h1 {
   justify-content: space-between;
   flex-direction: row;
   align-items: center;
-
   .navigation-left {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start; 
-  align-items: center;
-  list-style-type: none;
-  padding-left: 12vw;
-  padding-top: 6vh; 
-}
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start; 
+    align-items: center;
+    list-style-type: none;
+    padding-left: 12vw;
+    padding-top: 6vh; 
+  }
   .navigation-right {
-  display: flex;
-  justify-content: flex-end; 
-  list-style-type: none;
-  padding-top: 5vh;
-  @media only screen and (max-width: $scr_brk) {
-    display: none;
-}
-}
-.nav-display{
-  display: flex !important;
-  flex-direction: column;
-  justify-content: flex-end; 
-  list-style-type: none;
-  padding-top: 5vh;
-  padding-right: 10vw; 
+    display: flex;
+    justify-content: flex-end; 
+    list-style-type: none;
+    padding-top: 5vh;
+    @media only screen and (max-width: $scr_brk) {
+      display: none;
+    }
+  }
+  .nav-display{
+    display: flex !important;
+    flex-direction: column;
+    justify-content: flex-end; 
+    list-style-type: none;
+    padding-top: 5vh;
+    padding-right: 10vw; 
   }
 }
 .nav-item {
   margin-right: 63px;
-  color: white;
+  color: $white;
 }
 .nav-menu{
   display: none;
   @media only screen and (max-width: $scr_brk) {
     display: inline;
     img{
-    width: 20vw;
-    padding-right: 15vw;
-    padding-top: 5vh;
+      width: 20vw;
+      padding-right: 15vw;
+      padding-top: 5vh;
     }   
-
-}
+  }
 }
 .headers-text {
   font-family: Roboto;
