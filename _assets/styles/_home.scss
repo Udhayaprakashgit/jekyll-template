@@ -87,7 +87,7 @@ h1 {
   object-fit: contain;
   background-image: url("/img/banner.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100vw 100vh;
 }
 
 
@@ -102,7 +102,6 @@ h1 {
     justify-content: center;
   .meeting-notes {
     padding-top: 6vh;
-    width: 98vw;
     height: 10vh;
     font-family: Roboto;
     font-size: 40px;
@@ -114,7 +113,7 @@ h1 {
     text-align: center;
     color: $white;
   @media only screen and (max-width: $scr_brk) {
-    width: 100%;
+    width: auto;
     height: auto;
     text-align: center;
     padding-top: 15vh;
@@ -202,11 +201,11 @@ h1 {
 }
 .fg-img{
   width: 60vw;
-  height: 43.4vh;
+  height: 39.7vh;
   align-self: center;
   @media only screen and (max-width: $scr_brk) {
-    width: 330px;
-    height: 145px;
+    width: 70vw;
+    height: 29.1vh;
     align-self: center;
     padding-right: 10vw;
   }
@@ -246,7 +245,7 @@ h1 {
   }
 }
 .nav-item {
-  margin-right: 63px;
+  margin-right: 4vw;
   color: $white;
 }
 .nav-menu{

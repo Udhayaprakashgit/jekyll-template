@@ -33,22 +33,27 @@ p {
   justify-content: center;
   padding-top: 4vh;
   padding-left: 8vw;
-
+  @media only screen and (max-width: $scr_brk) {
+      flex-direction: column;
+  }
   .footer-midtopic{
-  display: flex;
-  justify-content: space-between;
-  width: auto;
-  height: 17px;
-  padding-bottom: 5vh;
-  font-family: ProximaNova;
-  font-size: 15px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  text-align: left;
-  color: $white;
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    height: 17px;
+    padding-bottom: 5vh;
+    font-family: ProximaNova;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: $white;
+    @media only screen and (max-width: $scr_brk) {
+      flex-direction: column;
+    }
   }
 }
 
